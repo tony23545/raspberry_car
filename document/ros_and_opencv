@@ -1,0 +1,10 @@
+1. ROS and Opencv . 
+An instruction from here is for installing ROS kinetic and Opencv seperately after installing Raspbian Stretch:  
+https://neverbenever.wordpress.com/2017/12/20/install-ros-and-opencv-in-raspberry-piraspbian-stretch/
+
+Another way is to install a Raspbian together with ROS and Opencv  
+https://medium.com/@rosbots/ready-to-use-image-raspbian-stretch-ros-opencv-324d6f8dcd96
+
+2. Vistualenv setup for python3.6
+
+3. Tensorflow installation  
