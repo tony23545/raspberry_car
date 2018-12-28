@@ -1,0 +1,9 @@
+The file document some methods to achieve wireless connection between PI and PC.  
+Before starting, I have to say that a screen for the raspberry Pi can make my life much more easier...  
+Tow methods:  
+
+1. Make PI itself an access point  
+There are many methods on the Internet, but I haven't found any that works for me without any problems.  
+There is risk to lost even the ethernet connection when configurating the internet setting of PI...so you have no way to find it back without a screen.  
+
+2. Use a router as an AP and connect both PI and PC
