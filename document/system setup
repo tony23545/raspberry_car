@@ -1,1 +1,13 @@
+1. Download Raspbian on https://www.raspberrypi.org/downloads/raspbian/  
+   The lastes version should be Stretch.  
 
+2. Some softwares are useful to write the system file to the SD card.
+   Win32DiskImager, UltraISO  
+   After finish writing the system to the SD card, add a empty file named 'ssh' to enable the ssh functionality of the new system.  
+
+3. Download putty, vnc viewer to connect to the headless raspberry PI.
+   Insert the SD card to the PI and connect it to the computer through a eth cable. 
+   Set the ethernet share configuration to enable the share.  
+   Input "arp -a" in the cmd to find the IP address of PI, connect it through putty.  
+   In putty, use "vncserver" to start VNC on PI.  
+   
