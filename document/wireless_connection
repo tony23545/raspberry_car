@@ -6,4 +6,15 @@ Tow methods:
 There are many methods on the Internet, but I haven't found any that works for me without any problems.  
 There is risk to lost even the ethernet connection when configurating the internet setting of PI...so you have no way to find it back without a screen.  
 
-2. Use a router as an AP and connect both PI and PC
+2. Use a router as an AP and connect both PI and PC  
+
+3. static IP for raspberry PI
+vim /etc/dhcpcd.conf  
+add at the end of the file:
+
+interface eth0  
+static ip_address=192.168.1.20/24  
+static routers=192.168.1.1  
+static domain_name_servers=114.114.114.114  
+
+Then reboot by "sudo reboot"
