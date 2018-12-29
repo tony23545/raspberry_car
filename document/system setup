@@ -1,5 +1,7 @@
 1. Download Raspbian on https://www.raspberrypi.org/downloads/raspbian/  
    The lastes version should be Stretch.  
+   Another option is to download Stretch with ROS and Opencv  
+   Note that this time, the initial password is not 'raspberry' but 'rosbots!'  
 
 2. Some softwares are useful to write the system file to the SD card.
    Win32DiskImager, UltraISO  
