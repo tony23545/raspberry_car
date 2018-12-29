@@ -1,0 +1,4 @@
+1. "connect to mirrors.opencas.cn fail" when using "apt-get install"  
+```
+python moveit_benchmark_statistics.py /home/shengjian/benchmark.log.1.log -p benchmark.pdf
+```
